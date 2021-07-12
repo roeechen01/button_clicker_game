@@ -15,7 +15,7 @@ class MyAppState extends State<MyApp> {
     });
   }
 
-  double get size => this.score / 20;
+  double get size => this.score / 10;
 
   int score = 0;
   var buttonsMap = [
